@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YanaBirthday.Page3"
+             BackgroundColor="Lavender">
+    <ContentPage.Content>
+        <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Image Source="yanasnig" AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill"></Image>
+            <StackLayout AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All" BackgroundColor="Transparent">
+                <StackLayout Margin="20, 35, 20, 20">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <!-- Place new controls here -->
+                <Label Grid.Row="0" Text="Your Birthday Checklist" 
+                       HorizontalOptions="Center"
+                       Grid.ColumnSpan="2"
+                       FontAttributes="Bold"
+                       TextColor="Blue"
+                       FontSize="30"
+                       />
+                <Label Grid.Row="1"
+                       Grid.Column="0"
+                       Text="Sleep extra"
+                       FontSize="20"
+                       HorizontalOptions="StartAndExpand"
+                       VerticalOptions="Center"/>
+                <CheckBox Grid.Row="1"
+                          Grid.Column="1"
+                          HorizontalOptions="End" VerticalOptions="Center"
+                          x:Name="SleepCheck"
+                          CheckedChanged="onSleepChanged"
+                          ></CheckBox>
+                <Label Grid.Row="2"
+                       Grid.Column="0"
+                       Text="Smile"
+                       FontSize="20"
+                       HorizontalOptions="StartAndExpand"
+                       VerticalOptions="Center"/>
+                <CheckBox Grid.Row="2"
+                          Grid.Column="1"
+                          x:Name="SmileCheck"
+                          CheckedChanged="onSmileChanged"
+                          HorizontalOptions="End" VerticalOptions="Center"></CheckBox>
+                <Label Grid.Row="3"
+                       Grid.Column="0"
+                       Text="Eat junk"
+                       FontSize="20"
+                       HorizontalOptions="StartAndExpand"
+                       VerticalOptions="Center"/>
+                <CheckBox Grid.Row="3"
+                          Grid.Column="1"
+                          x:Name="JunkCheck"
+                          CheckedChanged="onJunkChanged"
+                          HorizontalOptions="End" VerticalOptions="Center"></CheckBox>
+                <Label Grid.Row="4"
+                       Grid.Column="0"
+                       Text="Binge Netflix"
+                       FontSize="20"
+                       HorizontalOptions="StartAndExpand"
+                       VerticalOptions="Center"/>
+                <CheckBox Grid.Row="4"
+                          Grid.Column="1"
+                          x:Name="NetflixCheck"
+                          CheckedChanged="onNetflixChanged"
+                          HorizontalOptions="End" VerticalOptions="Center"></CheckBox>
+                <Label Grid.Row="5"
+                       Grid.Column="0"
+                       Text="Skip a class"
+                       FontSize="20"
+                       HorizontalOptions="StartAndExpand"
+                       VerticalOptions="Center"/>
+                <CheckBox Grid.Row="5"
+                          Grid.Column="1"
+                          CheckedChanged="onClassChanged"
+                          x:Name="ClassCheck"
+                          HorizontalOptions="End" VerticalOptions="Center"></CheckBox>
+                <Label Grid.Row="6"
+                       Grid.Column="0"
+                       Text="Dress up"
+                       FontSize="20"
+                       HorizontalOptions="StartAndExpand"
+                       VerticalOptions="Center"/>
+                <CheckBox Grid.Row="6"
+                          Grid.Column="1"
+                          x:Name="DressCheck"
+                          CheckedChanged="onDressChanged"
+                          HorizontalOptions="End" VerticalOptions="Center"></CheckBox>
+                <Label Grid.Row="7"
+                       Grid.Column="0"
+                       Text="Text a lot"
+                       FontSize="20"                       
+                       HorizontalOptions="StartAndExpand"
+                       VerticalOptions="Center"/>
+                <CheckBox Grid.Row="7"
+                          Grid.Column="1"
+                          x:Name="TextCheck"
+                          CheckedChanged="onTextChanged"
+                          HorizontalOptions="End" VerticalOptions="Center"></CheckBox>
+                <Label Grid.Row="8"
+                       Grid.Column="0"
+                       Text="Feel happy!!"
+                       FontSize="20"
+                       HorizontalOptions="StartAndExpand"
+                       VerticalOptions="Center"/>
+                <CheckBox Grid.Row="8"
+                          x:Name="HappyCheck"
+                          Grid.Column="1"
+                          CheckedChanged="onHappyChanged"
+                          HorizontalOptions="End" VerticalOptions="Center"></CheckBox>
+                <Label Grid.Row="9" Text="You had an amazing birthday!" 
+                       HorizontalOptions="Center"
+                       Grid.ColumnSpan="2"
+                       FontAttributes="Italic"
+                       TextColor="Blue"
+                       FontSize="20"
+                       IsVisible="False"
+                       x:Name="FinalMessage"
+                       />
+                <Button BackgroundColor="LightBlue"
+                Text="Back to main"
+                Clicked="onMainClicked"
+                Grid.Row="10"
+                Grid.ColumnSpan="2"
+                />
+            </Grid>
+                </StackLayout>
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+
+</ContentPage>

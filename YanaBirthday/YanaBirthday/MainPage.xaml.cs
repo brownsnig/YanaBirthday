@@ -10,9 +10,14 @@ namespace YanaBirthday
 {
     public partial class MainPage : ContentPage
     {
-        public MainPage()
+        MainPage = new NavigationPage(new MainPage());
+        
+        
+        async void onBirthdayNoteClicked(object sender, EventArgs e)
         {
-            InitializeComponent();
+           await Navigation.PushAsync(new Page1());
         }
+        
+       
     }
 }

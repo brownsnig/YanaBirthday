@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YanaBirthday.Page4">
+    <ContentPage.Content>
+   
+            <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Image Source="yanasnig" AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill"></Image>
+                <StackLayout AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All" BackgroundColor="Transparent">
+                <ScrollView>
+                    <StackLayout Margin="20,35,20,20">
+                        <Label Text="SnanaBanana Moments!"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="Blue"
+               FontSize="31"
+               ></Label>
+                        <Label Text="This is the first picture in my Yana Gallery! Us, Starbucks, Academic Decathlon - fun times!! Minutes later, in the car, we found out we were both doing Girls Inc!! So fun!"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   >
+                        </Label>
+                        <Image Source ="acadeca"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="Who can ever forget ATTOM memories? From goofing around for mocha to running over to each other's desks, we had such a #productive summer interning together!"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="attom"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="Since we are on the topic of ATTOM, this picture MUST be included. I'm still wondering where my legs are."
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="attomghost"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="Academic Banquet 2019 was definitely a boring, plain event but I still had a blast all because of you. I still remember you and Hannah roasting me over not knowing some song and us hogging Stonefire pasta. Cheers to you getting 'Most Talkative' and me getting 'Loudest' as our awards!! Definitely suits us LOL."
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="banquet"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="Another ATTOM-ish memory! Reunion!! And the last reunion we ever had, haha. We were such fashionistas omg. Remember we biked there and I came with the Batman cap? Your expression was invaluable. Please always laugh at my disastrous fashion choices and my meme outfits - I love you for it!!"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="beach"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="Speaking of biking, remember our biking adventures from last year? I swear Yana, you CANNOT bike. At least, on a straight path. Maybe if the road was crooked, you'd start going straight. TERRIBLE! Also I believe this picture was minutes after we heard the rattlesnake...hssss."
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="bike"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="Girl you should be thanking your chickens that this picture is here. I look SO ugly. But anyway, remember when Hannah drove us, and we shared an ice cream? Creamistry is quite an iconic place for us, especially considering the events that happened there LATER in November. Either way, this might be creepy, but it's always fun sharing food with you hehe, because I get to hog most of it!!"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="creamistry"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="This one is just ICONIC. I cannot believe we were dancing to Gangnam Style over the 405 while there was a severe earthquake. That is such an us thing to do. We even got HONKED at from cars below. That's something I'd only be able to do with someone like you!"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="earthquake"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="Homecoming Game!! One of the first and last times I got to see you in your 'attractive' marching bad outfit, and you convinced a few people that I was your mom. Honestly, I do mom you quite a bit so you weren't completely wrong!"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="hoco"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="I...don't even know what's happening here. I'm sure Avika wondered why she even allowed us to volunteer together at #innovate. We were absolute crackheads there and I remember taking the memeiest photos of you on Avika's camera. We were horrible role models to the kids but ykw, WORTH it."
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="innovate"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="Seconds before I absolutely chickened out of going on HangTime! Even though we spent most of formal standing in long lines, it was sooo much fun because of you! Our love is so evident in this picture and I think we're the real power couple, for sure. It was an exhausting day, from AcaDeca to Formal, but I did it all with you and I'm so happy we got to share this together."
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="knotts"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="And here's a flashback to my 17th birthday for your 17th birthday! Man, that day was so humid - I remember you laughed at my sweat stains and it was so funny. But, I wouldn't have spent my birthday in any other way. I can't even imagine going to LA without you, to be honest. Here's to ditching work together to do so much fun stuff!"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="koreatown"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="Speaking of LA, here's a flashback to another iconic LA trip. LACMA was truly such a fun experience. I mean, we aren't the most artsy girls, let's be real, but the whole thrill of going to LA downtown on our own was insanely fun. I still remember losing Ramanuj, the creepy taxi driver, painting together, and eating the same dish in vastly different ways at that Italian place. I really hope we can make a trip like that soon, LA isn't the same without you!"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="lacma"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="This is a memoir of a carefully planned date and the hilarious excuses I made to go to Spectrum that day. Thanks for being my partner-in-crime when it comes to doing some parental deceiving. I think you had lipstick on your teeth at some point and it was hilarious. Also, the Italian restaurant was so boujeeeee. Ughhh I wanted to do more outings like this this summer - darn it Corona!"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="sephora"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="This sleepover! That night really changed everything. You are the perfect sleuth to be honest, and 100% the best wingwoman ever. I remember squealing all over and hiding under the bed because of your amazing wingwoman-ing. Of all our plans, this one was the MOST impromptu and hands-down one of the best. To all the dahi you ate that night and all the fun conversations (where I fell asleep midway), this sleepover was the best night ever!"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="sleepover"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="I LOVE THIS PICTURE sooo much. We look so stylish and iconic in this. Literally, someone should cast us in a movie. Honestly, this birthday was the best birthday ever and it's hugely because of you. Thank you for choosing to ride in the car with me for almost an hour as I fell into Michael's trap. Thanks for hiding the view as I changed from a huge dress into this outfit in a cramped backseat. You're truly the bestest friend ever!"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="snigbday"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="These were some crazy days mimicking some crazy pictures. This picture took WAY too many attempts and I think we spent more time laughing on the floor than anything. Honestly, crashing WSC meetings was one of my favorite things to do, because of how insane we'd get there. Also, this is another #StylishSnana moment, I mean those outfits are nice! I'm going to really miss our classroom antics together, girlie!"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="snigs"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="Oh my gosh, this dinner! Thanksgiving was one of the first times we got to see how truly insane our fellow Decathletes were. From Malik's crazy comments to Vishnu's hair, and all the insanity that happened in Creamistry and in the CrossRoads foodcourt, this night was such a milestone! It was definitely the beginning of a different sort of era, if you know what I mean, and I am so glad I got to share it with you. November 2019 was a very spicy month for us, no cap."
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="thanksgiving"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="Look at how safe we are during a global pandemic! You're the only person I'd willingly take on my back like this - just cuz you're skinny, nothing else. Jk, you're so special to me and I love that we can share #nohomo moments like these together."
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="yanaonsnig"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Label Text="And finally, before I start to bore you, here's a flashback to exactly a year ago - back to when you had hectic Wednesdays and your 16th birthday happened to fall on one. I know this year looks a lot more different, but you're still the same hustler who lets nothing get in her way to achieve her dreams. I hope your face is as covered in cake this year as it was last year, and I hope that you thoroughly enjoyed every second of turning eighteen. I love you soooo much!!"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                        <Image Source ="yanabday"
+                   WidthRequest="{OnPlatform iOS=300, Android=300}"
+                   HorizontalOptions="Center" />
+                        <Button BackgroundColor="LightBlue"
+                Text="Back to main"
+                Clicked="onMainClicked"
+                />
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+            </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
