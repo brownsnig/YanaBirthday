@@ -6,7 +6,8 @@
     <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
         <Image Source="yanasnig" AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill"></Image>
             <StackLayout AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All" BackgroundColor="Transparent">
-                <StackLayout Margin="20,35,20,20" Orientation="Vertical">
+            <ScrollView>
+                <StackLayout Margin="20,25,20,20" Orientation="Vertical">
                     <Label Text="Happy Birthday Yana!"
                    HorizontalOptions="Center"
                    FontAttributes="Bold"
@@ -38,6 +39,11 @@
                     />
                     <Button BackgroundColor="LightBlue"
                     Text="Sniggy Joke Generator"
+                    Clicked="onJokeClicked"
+                    />
+                <Button BackgroundColor="LightBlue"
+                    Text="Stress Ball Simulator"
+                     Clicked="onStressClicked"
                     />
                 <Label Text="Have fun!"
                    HorizontalOptions="Center"
@@ -46,6 +52,7 @@
                    FontSize="30"
                    ></Label>
             </StackLayout>
+            </ScrollView>
         </StackLayout>
     </AbsoluteLayout>
 </ContentPage>

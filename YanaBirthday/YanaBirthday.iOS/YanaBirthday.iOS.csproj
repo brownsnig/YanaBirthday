@@ -118,6 +118,12 @@
     <ImageAsset Include="Assets.xcassets\hoco.imageset\hoco.jpg">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\sniggymeme.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\sniggymeme.imageset\sniggymeme.png">
+      <Visible>false</Visible>
+    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\snigs.imageset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
@@ -330,5 +336,8 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\yanabday.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sniggymeme.png" />
   </ItemGroup>
 </Project>

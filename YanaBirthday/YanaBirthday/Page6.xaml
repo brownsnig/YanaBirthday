@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YanaBirthday.Page6">
+    <ContentPage.Content>
+        <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Image Source="yanasnig" AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill"></Image>
+            <StackLayout AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All" BackgroundColor="Transparent">
+                <StackLayout Margin="20,35,20,20">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Row ="0" Text="STRESSSSS OUTER"
+                               Grid.ColumnSpan="2"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="Blue"
+               FontSize="35"
+               ></Label>
+                        <Button Text="Click Me!"
+                       Grid.Row ="1"
+                       Grid.ColumnSpan="2"
+                       Grid.RowSpan="6"
+                     x:Name="StressButton"
+                     FontSize="40"
+                     TextColor="Yellow"
+                     CornerRadius="150"
+                     WidthRequest="200"
+                     HeightRequest="350"
+                     BackgroundColor="CornflowerBlue"
+                     Clicked="onStressClicked"/>
+                        <Image Grid.Row="7" 
+                               Grid.RowSpan="3"
+                               Grid.ColumnSpan="2"
+                               Source="sniggymeme"
+                               x:Name="snigs"
+                               IsVisible="False"
+                               ></Image>
+                        <Label 
+                        Grid.Row="8"
+                        Grid.ColumnSpan="2"
+                       x:Name="stressy"
+                        HorizontalOptions="CenterAndExpand"
+                       TextColor="MediumVioletRed"
+                       FontSize="20"
+                        />
+                        <Button
+                            Grid.Row="10"
+                            Grid.ColumnSpan="2"
+                            BackgroundColor="LightBlue"
+                Text="Back to main"
+                Clicked="onMainClicked"
+                />
+                    </Grid>
+                </StackLayout>
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

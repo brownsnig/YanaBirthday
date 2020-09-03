@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="YanaBirthday.Page5">
+    <ContentPage.Content>
+        <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Image Source="yanasnig" AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill"></Image>
+            <StackLayout AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All" BackgroundColor="Transparent">
+                <StackLayout Margin="20,35,20,20">
+                    <Label Text="SNIGGY-LEVEL JOKES!"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="Blue"
+               FontSize="33"
+               ></Label>
+                    <Label Text="I know how much you LOVE my humor, so I decided to add in a little Sniggy-flavor to this app. Enjoy!"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="DarkSlateBlue"
+                   FontSize="20"
+                   />
+                    <Label />
+                    <Label />
+                    <Label x:Name="Joke"
+                     TextColor="Red"
+                     Text=""
+                     HorizontalOptions="Center"
+                     FontSize="28"/>
+                    <Label />
+                    <Button BackgroundColor="DarkSlateBlue"
+                Text="Generate Joke"
+                Clicked="onGenerateClicked"
+                />
+                    <Label />
+                    <Button BackgroundColor="LightBlue"
+                Text="Back to main"
+                Clicked="onMainClicked"
+                />
+                </StackLayout>
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

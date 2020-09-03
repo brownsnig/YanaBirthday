@@ -32,5 +32,15 @@ namespace YanaBirthday
         {
             await Navigation.PushAsync(new Page4());
         }
+
+        async void onJokeClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page5());
+        }
+
+        async void onStressClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page6());
+        }
     }
 }

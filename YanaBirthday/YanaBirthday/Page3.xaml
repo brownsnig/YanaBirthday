@@ -24,6 +24,8 @@
                 <Label Grid.Row="1"
                        Grid.Column="0"
                        Text="Sleep extra"
+                       FontAttributes="Bold"
+                       TextColor="DarkOrchid"
                        FontSize="20"
                        HorizontalOptions="StartAndExpand"
                        VerticalOptions="Center"/>
@@ -35,19 +37,23 @@
                           ></CheckBox>
                 <Label Grid.Row="2"
                        Grid.Column="0"
+                       TextColor="DeepPink"
                        Text="Smile"
+                       FontAttributes="Bold"
                        FontSize="20"
                        HorizontalOptions="StartAndExpand"
                        VerticalOptions="Center"/>
                 <CheckBox Grid.Row="2"
-                          Grid.Column="1"
+                          Grid.Column="1"                          
                           x:Name="SmileCheck"
                           CheckedChanged="onSmileChanged"
                           HorizontalOptions="End" VerticalOptions="Center"></CheckBox>
                 <Label Grid.Row="3"
                        Grid.Column="0"
                        Text="Eat junk"
+                       TextColor="DarkOrchid"
                        FontSize="20"
+                       FontAttributes="Bold"
                        HorizontalOptions="StartAndExpand"
                        VerticalOptions="Center"/>
                 <CheckBox Grid.Row="3"
@@ -58,7 +64,9 @@
                 <Label Grid.Row="4"
                        Grid.Column="0"
                        Text="Binge Netflix"
+                       FontAttributes="Bold"
                        FontSize="20"
+                       TextColor="DeepPink"
                        HorizontalOptions="StartAndExpand"
                        VerticalOptions="Center"/>
                 <CheckBox Grid.Row="4"
@@ -70,6 +78,8 @@
                        Grid.Column="0"
                        Text="Skip a class"
                        FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="DarkOrchid"
                        HorizontalOptions="StartAndExpand"
                        VerticalOptions="Center"/>
                 <CheckBox Grid.Row="5"
@@ -81,6 +91,8 @@
                        Grid.Column="0"
                        Text="Dress up"
                        FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="DeepPink"
                        HorizontalOptions="StartAndExpand"
                        VerticalOptions="Center"/>
                 <CheckBox Grid.Row="6"
@@ -90,8 +102,10 @@
                           HorizontalOptions="End" VerticalOptions="Center"></CheckBox>
                 <Label Grid.Row="7"
                        Grid.Column="0"
+                       TextColor="DarkOrchid"
                        Text="Text a lot"
-                       FontSize="20"                       
+                       FontSize="20"          
+                       FontAttributes="Bold"
                        HorizontalOptions="StartAndExpand"
                        VerticalOptions="Center"/>
                 <CheckBox Grid.Row="7"
@@ -102,7 +116,9 @@
                 <Label Grid.Row="8"
                        Grid.Column="0"
                        Text="Feel happy!!"
+                       FontAttributes="Bold"
                        FontSize="20"
+                       TextColor="DeepPink"
                        HorizontalOptions="StartAndExpand"
                        VerticalOptions="Center"/>
                 <CheckBox Grid.Row="8"

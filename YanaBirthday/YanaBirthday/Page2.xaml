@@ -6,6 +6,7 @@
         <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
             <Image Source="yanasnig" AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill"></Image>
             <StackLayout AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All" BackgroundColor="Transparent">
+                <ScrollView>
                 <StackLayout Margin="20,35,20,20">
             <Label Text="Dear Yana,"
                HorizontalOptions="Center"
@@ -13,11 +14,36 @@
                TextColor="Blue"
                FontSize="35"
                ></Label>
-            <Button BackgroundColor="LightBlue"
+                    <Label Text="I'm not sure how many times I've told you this but here goes: when I moved here from India 3 years ago, I was extremely scared of not finding the same kind of community and belonging that  had felt there. But when I met you, I realized that I had nothing to fear. You are the best possible sister, friend, and partner-in-crime that I could ask for, and I'm so grateful to have you in my life. "
+               HorizontalOptions="CenterAndExpand"
+               FontAttributes="Bold"
+               FontSize="30"
+               ></Label>
+                    <Label Text="Girl, even though you're younger than me, you're hands down an inspiration. You juggle so many extracurriculars, have perfect grades, and most importantly, are such a kind, fun human being who always places her friends before herselves. You're the role model human that the rest of us should try to be. Please, no matter what anyone says or does, do not change - your personality is unique and shines up an entire room."                      HorizontalOptions="CenterAndExpand"
+                      FontAttributes="Bold"
+                      FontSize="30"
+                      ></Label>
+                    <Label Text="Speaking of unique, let's bring in our friendship right here. There is absolutely no one else I'd dance on the streets with, that I'd dance with while driving, that I'd trust so deeply with all my inner thoughts. Whenever something happens to me I always feel this instant urge to tell you, and I'm so glad that I'm able to share all of this with you. We both have weird 'tea' and weird gossip in general but I think it's our weirdness that sets us apart, and I love it."
+                     FontAttributes="Bold"
+                     FontSize="30"/>
+                    <Label Text="Initially, the realization that I might not be going on campus was truly scary. How could the one experience I'd been looking forward to for ages be taken away from me like this? But, now, I'm so happy that I'm here for at least a few more months, because I get to be close to my best friend! I love our walks trespassing through the nursery and spilling extremely hot burn-your-tongue 'tea' and I'm glad I get another quarter of it. "
+                        FontAttributes="Bold"
+                        FontSize="30" />
+                    <Label Text="So, Yana, thanks for being such an amazing presence in my life. I love you more than words can measure and I'm glad I could find such an awesome sister from another mister so close to me. I hope we can renew our Friday Sniggy's-house-hangouts ASAP and I'm so excited to see all the beyond successful things you do!!"
+                    FontAttributes="Bold"
+                           FontSize="30" />
+                    <Label Text="Love, Snigdha"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="Blue"
+               FontSize="35"
+               ></Label>
+                    <Button BackgroundColor="LightBlue"
                 Text="Back to main"
                 Clicked="onMainClicked"
                 />
                 </StackLayout>
+                </ScrollView>
             </StackLayout>
         </AbsoluteLayout>
     </ContentPage.Content>
